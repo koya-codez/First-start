@@ -1,0 +1,24 @@
+# 💅 Koya’s Age Calculator ft. Vibe Roast
+# Because knowing your age isn’t enough — you need to be read too 🫣
+
+name = input("What’s your name, baddie? ")
+birth_year = int(input("And your birth year, legend? "))
+current_year = 2025
+
+age = current_year - birth_year
+
+print(f"\n{name}, you're {age} years old.")
+
+# Now let the roast begin 💀
+if age < 10:
+    print("Tiny icon detected. Do your homework first 😤📚")
+elif 10 <= age <= 17:
+    print("Teenage delulu energy. We see you 👀✨")
+elif 18 <= age <= 25:
+    print("Prime slay years. Use it wisely, queen 👑")
+elif 26 <= age <= 35:
+    print("Mature slay. Bills and brilliance 🔥")
+elif age > 35:
+    print("Aged like fine sarcasm 🍷 Still iconic, still unstoppable.")
+else:
+    print("Age not found. Must be timeless 😌⏳")
